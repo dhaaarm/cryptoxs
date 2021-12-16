@@ -36,18 +36,7 @@ const LineChart = ({ coinHistory, currentPrice, coinName }) => {
     ],
   };
 
-  const data24 = {
-    labels: coinTimestamp24,
-    datasets: [
-      {
-        label: 'Price In USD',
-        data: coinPrice,
-        fill: false,
-        backgroundColor: '#0071bd',
-        borderColor: '#0071bd',
-      },
-    ],
-  };
+ 
 
   const options = {
     Scale: {
